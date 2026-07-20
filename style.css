@@ -15,3 +15,17 @@
 .nav-item a:hover {
     color: black;
 }
+
+.car {
+    background-image: url(car.avif);
+    background-size: cover;
+    position: relative;
+    height: 700px;
+    background-position: center;
+}
+
+@media (max-width: 575px) {
+    .car {
+        background-position: 25% 0%;
+    }
+}

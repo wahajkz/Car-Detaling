@@ -29,3 +29,57 @@
         background-position: 25% 0%;
     }
 }
+
+.car-txt {
+    margin-top: 200px;
+}
+
+.car-txt-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end !important;
+}
+
+.txt-1 {
+    height: 165px;
+    width: 400px;
+    font-size: 55px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    padding: 25px 25px;
+    color: black;
+}
+
+.txt-2 {
+    height: 95px;
+    width: 290px;
+    display: flex;
+    align-items: center;
+    color: black;
+    padding: 0px 10px;
+}
+
+.txt-3 {
+    height: 45px;
+    width: 120px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+@media (max-width: 575px) {
+    .car-txt {
+        margin-top: 50px;
+    }
+
+    .car-txt-1 {
+        margin-left: 20px;
+    }
+
+}

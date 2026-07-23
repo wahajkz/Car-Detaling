@@ -98,3 +98,54 @@
     }
 
 }
+
+.cr-1 {
+    height: 220px;
+    width: 370px;
+    background-image: url(car-2.avif);
+    background-size: cover;
+}
+
+.cr-2 {
+    height: 130px;
+    width: 110px;
+    background-image: url(car-3.avif);
+    margin-top: 200px;
+    margin-left: 150px;
+    animation: slideUp 3s ease-out forwards;
+}
+
+.txt-4 h1 {
+    font-weight: 400;
+    animation: slideUp 3s ease-out forwards;
+}
+
+.txt-4 p {
+    font-size: 18px;
+    margin-top: 100px;
+}
+
+.ser {
+    height: 45px;
+    width: 180px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 575px) {
+    .cr-2 {
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    .txt-4 p {
+        margin-top: 30px;
+    }
+
+    br {
+        display: none;
+    }
+}
